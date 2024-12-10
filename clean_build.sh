@@ -1,5 +1,7 @@
 rm -r build
+rm -r IR_Outputs
 mkdir build
+mkdir IR_Outputs
 cd build
 cmake ..
 make
