@@ -187,7 +187,7 @@ namespace
         std::map<Value *, std::set<Instruction *>> dependentInstructions;
         std::vector<BranchInst *> branches;
         std::map<Value *, std::string> calledFunc;
-        std::vector<std::string> libraryFunctions = {"getc", "fopen", "scanf", "fclose", "fread", "fwrite"};
+        std::vector<std::string> libraryFunctions = {"getc", "fopen", "scanf", "fclose", "fread", "fwrite", "fprintf", "fscanf", "sprintf", "sscanf", "fgetc", "fgets", "fputc", "fputs", "getc", "getchar", "gets", "get_s", "getwc", "fgetwc", "fputwc", "fputws", "putwc", "putwchar", "ungetwc", "vfprintf", "vfscanf", "vprintf", "vscanf", "vsprintf", "vsscanf", "vsnprintf", "vsprintf", "vsscanf", "vswprintf", "vwprintf", "wprintf", "wscanf"};
 
         std::string FILE_NAME = "analysis_output.txt";
 
