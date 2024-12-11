@@ -411,8 +411,7 @@ namespace
                     {
                         for (unsigned i = 0; i < Cmp->getNumOperands(); ++i)
                         {
-                            // if (i == 1 && variables.find(Cmp->getOperand(i)) != variables.end())
-                            if (variables.find(Cmp->getOperand(i)) != variables.end())
+                            if (i == 1 && variables.find(Cmp->getOperand(i)) != variables.end())
                             {
                                 Value *Operand = Cmp->getOperand(i);
 
