@@ -2,7 +2,7 @@
  * @file SeminalInputFeaturesAnalysis.cpp
  * @brief This file contains the implementation of the SeminalInputFeaturesAnalysis pass
  * @author Srinath Srinivasan (ssrini27@ncsu.edu)
- * @bug No known bugs
+ * @bug Sometimes the analysis may not be accurate due to limitations in the def-use analysis/loop analysis
  * @attention Please make sure FILE_NAME is set to the correct file path before running the pass
  *
  * This file contains the implementation of the SeminalInputFeaturesAnalysis pass.
