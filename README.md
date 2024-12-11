@@ -34,3 +34,5 @@ If you would like it in a different file - change `FILE_NAME` in `part2/SeminalI
 3. (Non-trivial) file_manupulation.c - `bash clean_build.sh file_manupulation`
 4. (Non-trivial) dmc_unrar.c - `bash clean_build.sh dmc_unrar`
 5. (Non-trivial) stb_vorbis.c - `bash clean_build.sh stb_vorbis`
+
+**NOTE:** Some test files may not meet the conditions in the analysis (some simple tests may not populate loop analysis) (try the complex files)
