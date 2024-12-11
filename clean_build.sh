@@ -7,4 +7,4 @@ cmake ..
 make
 cd ..
 
-clang -g -o0 -fpass-plugin=build/libSeminalInputFeaturesAnalysis.so -emit-llvm -c tests/hpet_example.c -o IR_Outputs/hpet_example.ll
+clang -g -o0 -fpass-plugin=build/libSeminalInputFeaturesAnalysis.so -emit-llvm -c tests/tinyobj_loader_c.h -o IR_Outputs/tinyobj_loader_c.ll
