@@ -9,4 +9,4 @@ cmake ..
 make
 cd ..
 
-clang -g -o0 -fpass-plugin=build/libSeminalInputFeaturesAnalysis.so -emit-llvm -c tests/{$1}.c -o IR_Outputs/{$1}.ll
+clang -g -o0 -fpass-plugin=build/libSeminalInputFeaturesAnalysis.so -emit-llvm -c tests/$1.c -o IR_Outputs/$1.ll
