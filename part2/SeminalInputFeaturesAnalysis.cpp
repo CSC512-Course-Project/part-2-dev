@@ -17,20 +17,19 @@
 #include <vector>
 #include <map>
 #include <set>
-// #include <sstream>
 #include <fstream>
 
 #include "llvm/IR/Module.h"
-#include "llvm/IR/Function.h"
-#include "llvm/IR/BasicBlock.h"
-#include "llvm/IR/Instruction.h"
-#include "llvm/IR/Instructions.h"
-#include "llvm/IR/DebugInfo.h"
-#include "llvm/IR/DebugInfoMetadata.h"
+// #include "llvm/IR/Function.h"
+// #include "llvm/IR/BasicBlock.h"
+// #include "llvm/IR/Instruction.h"
+// #include "llvm/IR/Instructions.h"
+// #include "llvm/IR/DebugInfo.h"
+// #include "llvm/IR/DebugInfoMetadata.h"
 #include "llvm/Passes/PassBuilder.h"
 #include "llvm/Passes/PassPlugin.h"
-#include "llvm/Support/raw_ostream.h"
-#include "llvm/Analysis/LoopInfo.h"
+// #include "llvm/Support/raw_ostream.h"
+// #include "llvm/Analysis/LoopInfo.h"
 #include "llvm/Analysis/LoopAnalysisManager.h"
 
 using namespace llvm;
