@@ -2,11 +2,11 @@
 
 This project extracts seminal input features from C code using LLVM.
 
-#### Running
+#### Running:
 
 ##### NOTE: Please only run on VCL (program relies on debug instructions which may not generate correctly on other platforms (ex: MacOS))
 
-##### A convenient script is located in the working directory to run the LLVM pass on a given test. Replace \<file_name\> with file names given under Testing below
+##### A script is located in the working directory to run the LLVM pass on a given test. Replace \<file_name\> with file names given under Testing below
 `bash clean_build.sh <file_name>`
 
 ##### If you would like to CMake manually run these in the working directory
@@ -20,7 +20,7 @@ cd ..
 clang -g -o0 -fpass-plugin=build/libSeminalInputFeaturesAnalysis.so -emit-llvm -c tests/<test_file_name>.c -o IR_Outputs/<test_file_name>.ll
 ```
 
-#### Testing
+#### Testing:
 
 2 simple and 3 complex (>200 LOC) test files are located in the tests folder
 1. (Simple) file_copy.c - `bash clean_build.sh file_copy`
